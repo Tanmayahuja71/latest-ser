@@ -1,0 +1,45 @@
+.header-container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.header-heading{ 
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 40%;
+}
+
+.header-feature{
+    margin: 5px;
+    margin-left: 300px;
+    
+}
+.nav-link{
+    color:white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+@media (max-width:1008px){
+    .header-feature{
+        margin: 10px;
+    }
+    .header-container{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (max-width:705px){
+    .header-container{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-feature{
+        margin:0px auto 5px auto ;
+    }
+}
